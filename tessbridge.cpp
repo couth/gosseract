@@ -2,8 +2,8 @@
 #include "/usr/local/include/leptonica/allheaders.h"
 #include "/usr/local/include/tesseract/baseapi.h"
 #else
-#include <leptonica/allheaders.h>
-#include <tesseract/baseapi.h>
+#include "/usr/local/leptonica/include/leptonica/allheaders.h"
+#include "/usr/local/tesseract/include/tesseract/baseapi.h"
 #endif
 
 #include <stdio.h>
